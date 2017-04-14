@@ -1,0 +1,12 @@
+{
+  "name": "measureInWindow",
+  "version": "1.0.0",
+  "main": "./js/src/measureInWindow",
+  "plugins": [
+    "lotus-coffee"
+  ],
+  "scripts": {
+    "build": "coffee-build -v 1.12.x -b -o js src",
+    "postinstall": "npm run build"
+  }
+}
